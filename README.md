@@ -20,6 +20,7 @@ if the svn repo is password protected, it is easiest to mount a local directory,
 
 `svn2git http://path/to/root/of/project --authors authors.txt`
 
-##### push to git
+###### push to git
 `ps c:\tmp/project>git remote add origin https://github.com/some/path/project.git`
+
 `ps c:\tmp/project>git push -u origin --all`
