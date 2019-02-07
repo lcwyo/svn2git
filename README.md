@@ -13,7 +13,7 @@ if the svn repo is password protected, it is easiest to mount a local directory,
 
 ###### Get the list of authors
 
-`$ svn log --quiet http://path/to/root/of/project | grep -E "r[0-9]+ \| .+ \|" | cut -d'|' -f2 | sed 's/ //g' | sort | uniq`
+`$ svn log --quiet http://path/to/root/of/project | grep -E "r[0-9]+ \| .+ \|" | cut -d'|' -f2 | sed 's/ //g' | sort | uniq > authors.txt`
 
 edit the authors file
 
